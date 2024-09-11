@@ -1,0 +1,44 @@
+@charset "ISO-8859-1";
+@charset "ISO-8859-1";
+ *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.myclass
+{
+	padding-top:50px;
+	margin-left:100px;
+	margin-right:100px
+}
+h3
+{
+	color:green;
+}
+table tr td a
+{
+	text-decoration:none;
+}
+input
+{
+	 width:400px;
+	 height:40px;
+	 border-radius:10px;
+	 background-color: lightblue;
+}
+.first
+{
+	float: left;
+	padding-left:50px;
+	color: white;
+}
+.second
+{
+	float: right;
+	padding-right: 50px;
+}
+.bg
+{
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhkAf_YdKfPUF24HFIQ3IiVgrQkiaUwZ9VIg&s");
+}

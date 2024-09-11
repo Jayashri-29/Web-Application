@@ -1,0 +1,41 @@
+@charset "ISO-8859-1";
+.myclass
+{
+	height:auto;
+	width:500px;
+	margin-left:250px;
+	margin-top:150px;
+	padding:20px;
+	padding-top:8px;
+	border:20px double black;
+	background-color: white;
+}
+.center
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainu
+{
+background-color:#84E6AA;	
+}
+.myclass1
+{
+	height:auto;
+	width:500px;
+	margin-left:250px;
+	margin-top:5px;
+	padding-top:8px;
+	border:8px double black;
+	background-color: white;
+}
+.view
+{
+	background-image: radial-gradient(circle, #56c6d1, #32cfcc, #11d7be, #28dea9, #50e38d);
+}
+p
+{
+	text-align: center;
+	font-size: 15px;
+}

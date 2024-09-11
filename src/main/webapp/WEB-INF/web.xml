@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>MyProjext</display-name>
+  <welcome-file-list>
+    <welcome-file>WelcomePage.jsp</welcome-file>
+
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>ViewBillByUser</display-name>
+    <servlet-name>ViewBillByUser</servlet-name>
+    <servlet-class>mess.controller.user.ViewBillByUser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ViewBillByUser</servlet-name>
+    <url-pattern>/viewbillbyuser</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+ *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+.myclass
+{
+	padding-top:100px;
+	margin-left:100px;
+	margin-right:100px;
+}
+h3
+{
+	color:green;
+}
+table tr td a
+{
+	text-decoration:none;
+}
